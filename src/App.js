@@ -1,11 +1,17 @@
 
 import './App.css';
+import { Navbar} from './components/nav-bar';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-     <h1 className='text-red-400'>This is a start screen</h1>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        
+      </Routes>
+    </Router>
   );
 }
 
