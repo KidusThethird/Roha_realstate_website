@@ -3,7 +3,7 @@ import Logo from '../assets/roha-logo.png'
 
 export const Navbar = () => {
   return (
-    <div className='flex justify-around pt-3'>
+    <div className='flex justify-around pt-3 bg-gray-700'>
        <div className='w-1/12'>
         <img src={Logo} alt="" />
         </div>
