@@ -6,19 +6,9 @@ import 'swiper/css';
 
 import 'swiper/css/pagination';
 
-
-
-
 import {Residents} from '../utils/residents'
 
-
-
 export const ShowHomes = () => {
-
-   
-
-
-
 
   return (
     <div className='px-5  '>
@@ -36,28 +26,19 @@ export const ShowHomes = () => {
 
     <div className='flex justify-between '>
 
-    
-
     <Swiper
     
     modules={[Navigation, Pagination, Scrollbar, A11y]}
      pagination={{ clickable: true }}
-    
-   
      navigation={{
         nextEl: '.review-swiper-button-next',
         prevEl: '.review-swiper-button-prev',
       }}
-    
-      
       spaceBetween={50}
       slidesPerView={4}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
-
-   
-      
-    >
+          >
 
 
 
@@ -75,15 +56,8 @@ export const ShowHomes = () => {
     <p className=' text-xs text-gray-500 font-semibold'>{resident.description}</p>
 </div>
 </SwiperSlide>)
-
-
     })
-    
     }
-
-    
- 
-
         
  </Swiper> 
 
