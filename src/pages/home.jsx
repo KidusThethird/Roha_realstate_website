@@ -17,6 +17,7 @@ export const Home = () => {
         <About />
         <Contact />
         <GetStarted />
+        
 
     </div>
   )
