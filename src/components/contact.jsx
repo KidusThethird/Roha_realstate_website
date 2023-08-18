@@ -1,6 +1,6 @@
 import React from 'react';
 import {Phone} from "@phosphor-icons/react";
-import Hero1 from '../assets/hero/hero-1.jpg';
+import Hero1 from '../assets/hero/hero-3.jpg';
 
 const Contact = () => {
   return (
@@ -83,8 +83,8 @@ const Contact = () => {
 
         <div>
 
-            <div className='mx-20 rounded-t-full overflow-hidden  border-2 border-orange-500'> 
-                <img className='' src={Hero1} alt="" />
+            <div className='mx-20 '> 
+                <img className='rounded-t-full   border-2 border-orange-500' src={Hero1} alt="" />
             </div>
         </div>
 

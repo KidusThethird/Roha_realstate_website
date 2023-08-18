@@ -5,6 +5,7 @@ import { Brands } from '../components/brands'
 import { ShowHomes } from '../components/show-homes'
 import About from '../components/about'
 import Contact from '../components/contact'
+import GetStarted from '../components/getStarted'
 
 
 export const Home = () => {
@@ -15,6 +16,7 @@ export const Home = () => {
         <ShowHomes />
         <About />
         <Contact />
+        <GetStarted />
 
     </div>
   )
