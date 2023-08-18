@@ -4,6 +4,7 @@ import {Hero} from '../components/hero'
 import { Brands } from '../components/brands'
 import { ShowHomes } from '../components/show-homes'
 import About from '../components/about'
+import Contact from '../components/contact'
 
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
         <Brands />
         <ShowHomes />
         <About />
+        <Contact />
 
     </div>
   )
