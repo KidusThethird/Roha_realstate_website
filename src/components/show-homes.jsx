@@ -47,7 +47,7 @@ export const ShowHomes = () => {
  return( <SwiperSlide  >
     
    
-<div className='p-8'>
+<div className='px-8 mb-12 rounded-2xl py-4 hover:scale-105 trasition-all duration-1000 hover:bg-gradient-to-t from-blue-200 to-white'>
     <img className='rounded-2xl' src={resident.image} alt="" />
   <div className='flex gap-1 text-lg font-bold p-2 text-gray-500'> 
     <h1 className='text-blue-600'>$</h1> <h1>{resident.price}</h1>

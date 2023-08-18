@@ -21,7 +21,7 @@ import Hero1 from '../assets/hero/hero-1.jpg';
                     <MapPin  size={32}/>
                 </div>
                 <input type="text" name="" id="" />
-                <button className='bg-orange-600 px-4 py-2 text-white rounded'>Search</button>
+                <button className='bg-orange-600 px-4 py-2 text-white rounded hover:scale-110 transition-all duration-200'>Search</button>
               
             </div>
 
