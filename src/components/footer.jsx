@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='p-10 justify-between flex'>
         <div>
             <img src={Logo} className='w-1/3' alt="" />
-            <p className='text-gray-500 pt-5'>Unlock Extraordinary Living: <br /> Discover Roha Homes</p>
+            <p className='text-gray-500 pt-5'>Unlock Extraordinary Living: <br /> Discover Roha Homes<br/> Made by: Kidus Tesfaye</p>
         </div>
 
         <div>
