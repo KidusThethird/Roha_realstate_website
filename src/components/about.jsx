@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Hero2 from '../assets/hero/hero-2.jpg'
 import {ShieldCheck, CaretCircleDoubleDown} from "@phosphor-icons/react";
 import {Accordion_json} from '../utils/accordion_about';
+import { motion } from 'framer-motion';
 
 
 const About = () => {
@@ -26,7 +27,10 @@ const toggleSelection = (i) =>{
             </div>
 
         {Accordion_json.map((item, i)=>(
- <div className='mt-6 py-6 shadow-lg shadow-orange-200 border-t-2  border-r-2 rounded'>
+ <div
+
+       
+ className='mt-6 py-6 shadow-lg shadow-orange-200 border-t-2  border-r-2 rounded transition-all duration-200'>
  <div className='flex justify-around'>
      <div className='text-blue-700 rounded p-2 my-auto bg-gray-200 '>
          <ShieldCheck size={18} />
@@ -36,8 +40,10 @@ const toggleSelection = (i) =>{
          <CaretCircleDoubleDown size={18}/>
      </div>
  </div>
- <div className='pt-10 px-16 text-gray-600'>
-     <p className='transition-all duration-200 ease-in-out'>{selected == i && item.description}</p>
+ <div
+    
+ className='pt-10 px-16 text-gray-600'>
+     <p className='transition-all  duration-200 ease-in-out'>{selected == i && item.description}</p>
  </div>
 </div>
 
