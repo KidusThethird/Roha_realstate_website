@@ -10,7 +10,7 @@ const Footer = () => {
             <h1 className='text-blue-700 text-3xl font-semibold'>Information</h1>
             <p className='text-gray-500'> Bole, Addis Ababa</p>
 
-            <div className=' space-x-4  pt-4  text-xl'>
+            <div className='flex flex-col md:flex-row space-y-4 md:space-x-4 md:space-y-0  pt-4   md:text-xl'>
                 <a href="">Property</a>
                 <a href="">Services</a>
                 <a href="">Product</a>

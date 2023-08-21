@@ -1,6 +1,9 @@
 import React from 'react';
 import {Phone , ChatCenteredDots , VideoCamera ,  EnvelopeSimple} from "@phosphor-icons/react";
 import Hero1 from '../assets/hero/hero-3.jpg';
+import { motion , AnimatePresence } from 'framer-motion';
+
+
 
 
 const Contact = () => {
@@ -17,7 +20,7 @@ const Contact = () => {
 
             </div>
 
-            <div className='md:grid grid-cols-2 gap-y-6 py-5 space-y-5'>
+            <div className='md:grid grid-cols-2 gap-y-6 py-5 space-y-5 md:space-y-0'>
 
                 <div className='space-y-4 border-2 md:w-3/4 p-4 hover:scale-105 transition-all duration-200  hover:shadow-xl hover:shadow-orange-600'>
                     <div className='flex '>
@@ -84,9 +87,18 @@ const Contact = () => {
 
         <div>
 
-            <div className='mx-auto w-1/2 lg:w-3/4 '> 
+            <motion.div 
+             animate={{
+                y: ['0%', '3%', '0%'],
+              }}
+              transition={{
+                duration: 1.5,
+                repeat: Infinity,
+                ease: 'easeInOut',
+              }}
+            className='mx-auto w-1/2 lg:w-3/4 '> 
                 <img className='rounded-t-full   border-2 border-orange-500' src={Hero1} alt="" />
-            </div>
+            </motion.div>
         </div>
 
 

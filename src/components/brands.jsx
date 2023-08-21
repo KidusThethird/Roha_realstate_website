@@ -7,12 +7,12 @@ import Brand4 from '../assets/brand/brand4.png';
 export const Brands = () => {
   return (
     <div className=' md:px-5 py-5 w-full'>
-<div className=' md:flex  md:space-x-10 justify-around w-fit mx-auto'>
+<div className=' md:flex  md:space-x-10 justify-between w-fit md:w-full mx-auto'>
 
-<img className='w-fit  ' src={Brand1} alt="" />
-<img className='w-fit   ' src={Brand2} alt="" />
-<img className='w-fit ' src={Brand3} alt="" />
-<img className='w-fit  ' src={Brand4} alt="" />
+<img className='md:w-fit md:mx-0 w-1/2 mx-auto ' src={Brand1} alt="" />
+<img className='md:w-fit md:mx-0 w-1/2 mx-auto ' src={Brand2} alt="" />
+<img className='md:w-fit md:mx-0 w-1/2 mx-auto' src={Brand3} alt="" />
+<img className='md:w-fit md:mx-0 w-1/2 mx-auto ' src={Brand4} alt="" />
 </div>
     </div>
   )
