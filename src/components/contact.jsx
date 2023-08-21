@@ -2,6 +2,7 @@ import React from 'react';
 import {Phone , ChatCenteredDots , VideoCamera ,  EnvelopeSimple} from "@phosphor-icons/react";
 import Hero1 from '../assets/hero/hero-3.jpg';
 
+
 const Contact = () => {
   return (
     <div className='grid grid-cols-2 p-8'>
