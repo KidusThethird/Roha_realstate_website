@@ -5,7 +5,7 @@ import Hero1 from '../assets/hero/hero-3.jpg';
 
 const Contact = () => {
   return (
-    <div className='grid grid-cols-2 p-8'>
+    <div className='lg:grid grid-cols-2 p-8'>
 
         <div>
             <div className='space-y-3'>
@@ -17,9 +17,9 @@ const Contact = () => {
 
             </div>
 
-            <div className='grid grid-cols-2 gap-y-6 py-5'>
+            <div className='md:grid grid-cols-2 gap-y-6 py-5 space-y-5'>
 
-                <div className='space-y-4 border-2 w-3/4 p-4 hover:scale-105 transition-all duration-200  hover:shadow-xl hover:shadow-orange-600'>
+                <div className='space-y-4 border-2 md:w-3/4 p-4 hover:scale-105 transition-all duration-200  hover:shadow-xl hover:shadow-orange-600'>
                     <div className='flex '>
                         <div className='text-orange-700 p-1 mr-7 my-auto rounded bg-orange-200'><Phone size={32} /></div> 
                         <div>
@@ -33,7 +33,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='space-y-4 border-2 w-3/4 p-4 hover:scale-105 transition-all duration-200  hover:shadow-xl hover:shadow-orange-600'>
+                <div className='space-y-4 border-2 md:w-3/4 p-4 hover:scale-105 transition-all duration-200  hover:shadow-xl hover:shadow-orange-600'>
                     <div className='flex '>
                         <div className='text-orange-700 p-1 mr-7 my-auto rounded bg-orange-200'><ChatCenteredDots size={32} /></div> 
                         <div>
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='space-y-4 border-2 w-3/4 p-4 hover:scale-105 transition-all duration-200  hover:shadow-xl hover:shadow-orange-600'>
+                <div className='space-y-4 border-2 md:w-3/4 p-4 hover:scale-105 transition-all duration-200  hover:shadow-xl hover:shadow-orange-600'>
                     <div className='flex '>
                         <div className='text-orange-700 p-1 mr-7 my-auto rounded bg-orange-200'><VideoCamera size={32} /></div> 
                         <div>
@@ -61,7 +61,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='space-y-4 border-2 w-3/4 p-4 hover:scale-105 transition-all duration-200  hover:shadow-xl hover:shadow-orange-600'>
+                <div className='space-y-4 border-2 md:w-3/4 p-4 hover:scale-105 transition-all duration-200  hover:shadow-xl hover:shadow-orange-600'>
                     <div className='flex '>
                         <div className='text-orange-700 p-1 mr-7 my-auto rounded bg-orange-200'><EnvelopeSimple size={32} /></div> 
                         <div>
@@ -84,7 +84,7 @@ const Contact = () => {
 
         <div>
 
-            <div className='mx-20 '> 
+            <div className='mx-auto w-1/2 lg:w-3/4 '> 
                 <img className='rounded-t-full   border-2 border-orange-500' src={Hero1} alt="" />
             </div>
         </div>
