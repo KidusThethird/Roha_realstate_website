@@ -4,7 +4,7 @@ import Hero1 from '../assets/hero/hero-1.jpg';
 
  export const Hero = () => {
   return (
-    <div className='lg:grid grid-cols-2 gap-x-6 px-10 bg-blue-900 py-10 md:py-20'>
+    <div id="hero" className='lg:grid grid-cols-2 gap-x-6 px-10 bg-blue-900 py-10 md:py-20'>
 
         <div className='col-span-1 pt-10 w-full  '>
             <h1 className='mx-auto text-4xl md:text-7xl text-white  md:w-3/4 font-semibold'>

@@ -15,7 +15,7 @@ const toggleSelection = (i) =>{
 }
 
   return (
-    <div className='my-14 lg:grid grid-cols-2'>
+    <div id="about" className='my-14 lg:grid grid-cols-2'>
         <div className=''>
 <img className='mx-auto w-1/2 lg:w-3/4  rounded-t-full border-2 border-orange-500  ' src={Hero2} alt="" />
         </div>

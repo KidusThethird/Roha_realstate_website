@@ -26,7 +26,7 @@ export const ShowHomes = () => {
 
 
   return (
-    <div className='px-5 text-center md:text-left '>
+    <div id="residencie" className='px-5 text-center md:text-left '>
         <h1 className='text-orange-400 text-2xl font-semibold'>Best Choices</h1>
         <h1 className='text-blue-900 text-3xl font-bold'>Popular Residencies</h1>
 

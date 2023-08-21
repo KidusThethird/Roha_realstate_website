@@ -21,13 +21,15 @@ export const Navbar = () => {
   return (
     <div className='flex justify-around py-1 bg-blue-900 bg-opacity-70 fixed w-full z-50'>
        <div className='w-1/6 lg:w-1/12'>
+        <a href="#hero">
         <img src={Logo} alt="" />
+        </a>
         </div>
         <div className='hidden lg:block space-x-8 text-orange-300 text-xl'>
-            <a className=' hover:shadow-lg pb-4 px-1 rounded hover:bg-blue-900 hover:shadow-orange-500' href="">Residencies</a>
-            <a className=' hover:shadow-lg pb-4 px-1 rounded hover:bg-blue-900 hover:shadow-orange-500' href="">Our Value</a>
-            <a className=' hover:shadow-lg pb-4 px-1 rounded hover:bg-blue-900 hover:shadow-orange-500' href="">Contact Us</a>
-            <a className=' hover:shadow-lg pb-4 px-1 rounded hover:bg-blue-900 hover:shadow-orange-500' href="">Get Started</a>
+            <a className=' hover:shadow-lg pb-4 px-1 rounded hover:bg-blue-900 hover:shadow-orange-500 ' href="#residencie">Residencies</a>
+            <a className=' hover:shadow-lg pb-4 px-1 rounded hover:bg-blue-900 hover:shadow-orange-500' href="#about">Our Value</a>
+            <a className=' hover:shadow-lg pb-4 px-1 rounded hover:bg-blue-900 hover:shadow-orange-500' href="#contact">Contact Us</a>
+            <a className=' hover:shadow-lg pb-4 px-1 rounded hover:bg-blue-900 hover:shadow-orange-500' href="#getStarted">Get Started</a>
             <button className='bg-orange-400 hover:scale-110 transition-all duration-200 text-white text-base rounded px-3 py-1'>Contact</button>
             </div>
 
@@ -45,11 +47,11 @@ export const Navbar = () => {
 
             
 }
-{dropDownList &&  <div className='lg:hidden absolute text-white flex-col flex top-12 right-24 bg-orange-600 bg-opacity-80 p-10 rounded-2xl'>
-            <a className='  py-2 px-1 rounded hover:bg-blue-900 ' href="">Residencies</a>
-            <a className='  py-2 px-1 rounded hover:bg-blue-900 ' href="">Our Value</a>
-            <a className='  py-2 px-1 rounded hover:bg-blue-900 ' href="">Contact Us</a>
-            <a className='  py-2 px-1 rounded hover:bg-blue-900 ' href="">Get Started</a>
+{dropDownList &&  <div  onClick={()=>DropDownListToggle()} className='lg:hidden absolute text-white flex-col flex top-12 right-24 bg-orange-600 bg-opacity-80 p-10 rounded-2xl'>
+            <a className='  py-2 px-1 rounded hover:bg-blue-900 ' href="#residencie">Residencies</a>
+            <a className='  py-2 px-1 rounded hover:bg-blue-900 ' href="#about">Our Value</a>
+            <a className='  py-2 px-1 rounded hover:bg-blue-900 ' href="#contact">Contact Us</a>
+            <a className='  py-2 px-1 rounded hover:bg-blue-900 ' href="#getStarted">Get Started</a>
             <button className='bg-orange-400 hover:scale-110 transition-all duration-200 text-white text-base rounded px-3 py-1'>Contact</button>
             </div>}
            

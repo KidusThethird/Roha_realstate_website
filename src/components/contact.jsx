@@ -5,7 +5,7 @@ import Hero1 from '../assets/hero/hero-3.jpg';
 
 const Contact = () => {
   return (
-    <div className='lg:grid grid-cols-2 p-8'>
+    <div id="contact" className='lg:grid grid-cols-2 p-8'>
 
         <div>
             <div className='space-y-3'>
